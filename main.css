@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.background{
+    background-image: url(/assets/images/background-pattern-desktop.svg);
+}
 label::after{
     content: '+';
     font-weight: 500;
