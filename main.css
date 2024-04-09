@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.faq.active .answer{
-    max-height: 300px;
-}
-.answer {
-    transition: max-height 0.4s, padding 0.4s;
-}
-.answer p{
-    color: rgb(184, 184, 184);
-    font-weight: 400;
-}
 label::after{
     content: '+';
     font-weight: 500;
@@ -23,7 +13,7 @@ input[type='radio']{
 }
 .accordion input[type='radio']:checked + label + .content{
     max-height: 100px;
-    padding: 10px 10px 10px;
+    padding: 10px 0px 10px;
 }
 .accordion input[type='radio']:checked + label::after{
     content: '-';
