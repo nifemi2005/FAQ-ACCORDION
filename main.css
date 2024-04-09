@@ -5,6 +5,7 @@
 
 .background{
     background-image: url(/assets/images/background-pattern-desktop.svg);
+    position: relative;
 }
 label::after{
     content: '+';
